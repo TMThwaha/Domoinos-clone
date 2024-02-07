@@ -1,0 +1,238 @@
+
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:  rgb(242, 242, 242) 
+   
+}
+.navbar{
+    position:fixed;
+    display:flex;
+    width: 100%;
+   
+    justify-content: end;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(0,100,145);
+    z-index: 8;
+}
+.logo{
+    width: 50px;
+    
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+}
+.logo img{
+    
+    height: 30px;
+    margin-left: 70px;
+}
+.words{
+    width: 100px;
+    height: 60px;
+    margin-right: 30px;
+    color: white;
+}
+.my{
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.login{
+    margin: 0;
+    color:  rgb(131, 154, 177);
+}
+.sectionone{
+    width: 50%;
+    height: 100vh;
+   
+}
+.imgone{
+width: 100%;
+}
+.imgone img{
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.imgone p{
+    margin-left: 100px;
+    width: 100%;
+    gap: 10px;
+    font-size: 1.3rem;
+    color: rgb(106, 103, 110);
+    line-height: 2rem;
+    display: block;
+    width: 80%;
+}
+.option{
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 100px;
+
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(0, 102, 167) ;
+
+}
+.option input{
+    cursor: pointer;
+}
+.input{
+    position: absolute;
+    width: 638px;
+    margin-left: 100px;
+    height: 45px;
+}
+.input input{
+    width: 84%;
+    height: 44px;
+    margin-top: 50px;
+    border-color: rgb(182, 223, 238);
+}
+.sectiontwo{
+    height: 410px;
+    display: flex;
+    position: absolute;
+    top: 60px;
+    left: 738px;
+    width: 50%;
+    z-index: 6;
+}
+
+.sectiontwo img{
+    width: 100%;
+    height: 100%;
+}
+
+.imgthree img{
+    width: 50%;
+    position: absolute;
+    bottom: 100px;
+    left: 30px;
+}
+.imgfour img{
+    width: 12%;
+    position: absolute;
+    left: 123px;
+    top: 675px;
+    border: solid .5px rgb(56, 50, 50);
+}
+.imgfour h3{
+    position: absolute;
+    left: 128px;
+    top: 615px;
+    color:  rgb(131, 154, 177);;
+
+
+}
+
+::placeholder{
+    padding-left: 50px;
+}
+.input img{
+    position: absolute;
+    top: 68px;
+    left: 20px;
+    width: 10px;
+    height: 15px;
+}
+.input button{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 59px;
+    right: 102px;
+    width: 148px;
+    height: 32px;
+    color: white;
+    background-color: rgb(0, 171, 0);
+    border: 0;
+}
+
+.sectionfive{
+    width: 100%;
+    height: 180px;
+    background-color:rgb(34, 46, 58);;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    color:  rgb(131, 154, 177);
+
+}
+.footer-right{
+    height:180px;
+    width: 500px;
+}
+.footer-right h1{
+    font-size: 15px;
+    font-family: proxima-nova, sans-serif;
+    margin-top: 40px;
+}
+.footer-right img{
+    width: 150px;
+    height: 40px;
+
+}
+.footer-left{
+    height: 180px;
+    width: 900px;
+    background-color: rgb(34, 46, 58);
+}
+.footer-store{
+    width: 100%;
+    display: flex;
+    justify-content:start;
+    margin-top: 10px;
+    gap: 40px;
+}
+.footer-left img{
+    height: 50px;
+    width: 25%;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+ul{
+    list-style-type: none;
+    
+}
+.left-content ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    cursor: pointer;
+}
+
+.sectionsix{
+    height: 60px;
+    background-color:rgb(26, 39, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8px;
+    color:  rgb(131, 154, 177);
+    border-top: solid 1px  rgb(131, 154, 177);
+
+}
+.chat img{
+    height: 70px;
+    width: 70px;
+
+}
+.sectionfour{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: 60px;
+}
+.chat{
+    position: fixed;
+    top: 600px;
+    
+
+}
